@@ -1,10 +1,10 @@
-!#/bin/bash
+#!/bin/bash
 
 # Making directory output
 mkdir output/
 
 # Moving test.txt into output
-mv test.txt output/
+cp test.txt output/
 
 # cding into output
 cd output/
@@ -20,8 +20,9 @@ ls -la >ls.txt
 cp test.txt copy.txt
 
 # alias for todays date
-alias test="date"
-test >date.txt
+shopt -s expand_aliases
+alias mydate='/usr/bin/date'
+mydate >date.txt
 
 # counting words in test.txt
 cat test.txt | wc >textcount.txt
@@ -36,7 +37,7 @@ touch permissions.txt
 chmod 777 permissions.txt
 
 # Creating shell variable
-$TESTENV1="test"
+TESTENV1="test"
 
 # Directions mildy confused me on this one
 # i think its just grepping 3 letters for specific words in test.txt

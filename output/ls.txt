@@ -1,0 +1,7 @@
+total 20
+drwxr-xr-x 2 keywinter keywinter 4096 Dec  1 19:13 .
+drwxr-xr-x 4 keywinter keywinter 4096 Dec  1 19:13 ..
+-rw-r--r-- 1 keywinter keywinter    0 Dec  1 19:13 ls.txt
+-rw-r--r-- 1 keywinter keywinter   51 Dec  1 19:13 pwd.txt
+-rw-r--r-- 1 keywinter keywinter  128 Dec  1 19:13 read.txt
+-rw-r--r-- 1 keywinter keywinter  128 Dec  1 19:13 test.txt
